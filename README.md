@@ -4,27 +4,27 @@ Radiologist Aid for Pneumonia Detection using Deep Learning
 
 Features
 
-Automated pneumonia detection from chest X-ray images
+>Automated pneumonia detection from chest X-ray images
 
-Deep learning-based image classification
+>Deep learning-based image classification
 
-Image preprocessing and augmentation
+>Image preprocessing and augmentation
 
-Model training and evaluation
+>Model training and evaluation
 
 Technologies Used
 
-Python
+>Python
 
-TensorFlow / Keras
+>TensorFlow / Keras
 
-NumPy
+>NumPy
 
-Pandas
+>Pandas
 
-Matplotlib
+>Matplotlib
 
-OpenCV
+>OpenCV
 
 Dataset
 
@@ -32,11 +32,11 @@ The model is trained on a publicly available chest X-ray dataset containing imag
 
 Installation
 
-Clone the repository
+1. Clone the repository
 
-Install required libraries
+2. Install required libraries
 
-Run the training script
+3. Run the training script
 
 Example:
 
@@ -44,13 +44,14 @@ git clone <repository-link>
 cd pneumonia-detection
 pip install -r requirements.txt
 python train_model.py
+
 Usage
 
-Load the trained model
+>Load the trained model
 
-Input a chest X-ray image
+>Input a chest X-ray image
 
-The model predicts whether the image indicates pneumonia or normal condition.
+>The model predicts whether the image indicates pneumonia or normal condition.
 
 Results
 
